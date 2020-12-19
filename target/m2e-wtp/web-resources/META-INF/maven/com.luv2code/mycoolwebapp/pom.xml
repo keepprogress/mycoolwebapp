@@ -21,6 +21,13 @@
 
   <dependencies>
   
+  	<!-- Add support for Hibernate: hibernate-core -->
+	<dependency>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-core</artifactId>
+		<version>5.2.11.Final</version>
+	</dependency>
+  
   	<!-- wee need to add the Servelet API dependency: javax.servlet-api -->
   	
     <dependency>
